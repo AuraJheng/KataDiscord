@@ -1,6 +1,52 @@
+*{
+    /* outline: 1px solid #aaa; */
+}
+
 .content{
     display: flex;
+    width: 640px;
+    margin: 0 auto;
+}
+.leftbig, .left{
+    display: flex;
+}
+.leftbig{
+    flex-direction: column;
 }
 .left{
+    margin: 12px 0;
     display: flex;
+}
+.left img{
+    width: 96px;
+    height: 96px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    width: 288px;
+    margin: 0 20px;
+}
+h2{
+    font-size: 20px;
+    line-height: 1.2;
+}
+p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.right{
+    width: 216px;
+    height: 216px;
+    margin: 12px 0;
+}
+.footer{
+    padding: 48px ;
+    width: 640px;
+    margin: 0 auto;
+}
+.footer p{
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
 }
