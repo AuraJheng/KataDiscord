@@ -67,14 +67,16 @@ li{
 .work{
     width: 1200px;
     margin: 0 auto;
+    margin-bottom: 80px;
+    padding:10px 0 0 20px;
 }
-.work ul{
-    padding: 5px 0 35px 20px;
+.work li {
+    font-weight: bolder;
+    padding:10px 0 0 30px;
     border-left: 1px solid #aaa;
-    margin:10px 0 30px 10px;
 }
-.work ul li {
-    font-weight: bold;
+.note li{
+    padding-top: 24px;
 }
 .work img{
     width: 100px;
@@ -82,5 +84,20 @@ li{
 .work p{
     font-size: 20px;
     line-height: 30px;
-    color: #333;
+    color: #666;
+    width: 642px;
+}
+/* .footer{
+    padding-bottom: 32px;
+} */
+.footer h2{
+    padding-top: 24px;
+    border-bottom: 1px solid #fff;
+}
+.footer li{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 8px 0;
+}
+.footer img{
+    margin: 8px 8px 40px;
 }
