@@ -3,19 +3,17 @@
 }
 
 .content{
-    display: flex;
     width: 640px;
+    display: flex;
     margin: 0 auto;
 }
-.leftbig, .left{
-    display: flex;
-}
 .leftbig{
+    display: flex;
     flex-direction: column;
 }
 .left{
-    margin: 12px 0;
     display: flex;
+    margin: 12px 0;
 }
 .left img{
     width: 96px;
